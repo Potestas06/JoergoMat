@@ -1,0 +1,9 @@
+.ImgHeader{
+    background-image: url("../images/ImageHeader.jpg");
+    width: auto;
+    height: 25em;
+    text-align: center;
+}
+html{
+    background-color: #202124;
+}
