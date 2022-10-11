@@ -9,6 +9,7 @@ html{/*defines the HTML-Tag*/
     background-color: #202124;
 }
 
+/* ------------- Navigation -------------*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -33,3 +34,4 @@ ul {
   li a:hover {
     background-color: #111;
   }
+/* ------------- Navigation -------------*/
