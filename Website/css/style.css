@@ -1,19 +1,20 @@
 /* ------------- Div for Image-Header Start ------------- */
-.ImgHeader{
-    background-image: url("../images/ImageHeader.jpg");
-    width: auto;
-    height: 25em;
-    text-align: center;
+.ImgHeader {
+  background-image: url("../images/ImageHeader.jpg");
+  width: auto;
+  height: 25em;
+  text-align: center;
 }
 
-img.ImgHeader{
+img.ImgHeader {
   width: 100%;
   height: auto;
 }
 
-html{
-    background-color: #202124;
+html {
+  background-color: #202124;
 }
+
 /* ------------- Div for Image-Header End ------------- */
 
 /* ------------- Navigation Start -------------*/
@@ -105,7 +106,7 @@ html{
 
 /* ------------- Body div class Logo Start ------------- */
 
-.logocontainer{
+.logocontainer {
   margin-left: 50%;
   margin-right: 50;
   width: auto;
@@ -114,6 +115,6 @@ html{
 
 /* ------------- Body div class Logo End ------------- */
 
-body{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
