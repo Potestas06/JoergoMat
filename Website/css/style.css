@@ -6,7 +6,12 @@
     text-align: center;
 }
 
-html{/*defines the HTML-Tag*/
+img.ImgHeader{
+  width: 100%;
+  height: auto;
+}
+
+html{
     background-color: #202124;
 }
 /* ------------- Div for Image-Header End ------------- */
@@ -30,7 +35,6 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   li a:hover {
@@ -54,7 +58,6 @@ ul {
   .dropdown {
     float: left;
     overflow: hidden;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   .dropdown .dropbtn {
@@ -89,7 +92,6 @@ ul {
     text-decoration: none;
     display: block;
     text-align: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   .dropdown-content a:hover {
@@ -112,3 +114,6 @@ ul {
 
 /* ------------- Body div class Logo End ------------- */
 
+body{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
