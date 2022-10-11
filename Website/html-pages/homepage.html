@@ -2,31 +2,33 @@
 <html>
 
 <head>
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/css/uikit.min.css" />
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/js/uikit-icons.min.js"></script>
     <link rel="stylesheet" href="../css/style.css" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leeano</title>
-    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
         <div class="ImgHeader"></div>
     </header>
-    <nav>
-        <ul>
+    <nav class="uk-navbar uk-navbar-container uk-margin uk-navbar-transparent " uk-navbar>
+      <div class="uk-navbar-left">
+        <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#" aria-label="Open Menu"></a>
+        <div class="uk-navbar-dropdown">
+          <ul class="uk-nav uk-navbar-dropdown-nav">
             <li><a href="about-us.html">About Us</a></li>
-            <div class="dropdown">
-                <button class="dropbtn">Dropdown 
-                  <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                  <a href="productpage-Leeano-Rumore.html">Leeano Rumore</a>
-                  <a href="productpage-Leeano-Suono.html">Leeano Suono</a>
-                </div>
-              </div> 
-            <li><a href="contactforum.html">Contact Us</a></li>
+            <li><a href="contactforum.html">Contact</a></li>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="productpage.html">Product</a></li>
           </ul>
+        </div>
+      </div>
     </nav>
     
 </body>
