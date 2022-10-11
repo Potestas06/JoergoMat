@@ -11,11 +11,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vorlage bitte Namen ändern</title>
+  <style>
+    #logo{
+      height: 200px;
+    }
+    html{
+      background-color: #202124;
+    }
+  </style>
 </head>
 
 <body>
   <header>
-    <nav class="uk-navbar uk-navbar-container uk-margin " uk-navbar>
+    <nav class="uk-navbar uk-navbar-container uk-margin uk-navbar-transparent " uk-navbar>
       <div class="uk-navbar-center">
         <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#" aria-label="Open Menu"></a>
         <div class="uk-navbar-dropdown">
@@ -26,6 +34,9 @@
             <li><a href="productpage.html">Product</a></li>
           </ul>
         </div>
+      </div>
+      <div class="uk-navbar-left">
+        <img src="../images/Site_logo.png" alt="logo" id="logo">
       </div>
     </nav>
   </header>
