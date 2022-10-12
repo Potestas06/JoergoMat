@@ -11,6 +11,8 @@ function WidthChange(mq) {
     $("#navbar_toggle").on("click", function (e) {
       $("#navbar_collapse").slideToggle();
       $("#navbar_collapse").css({ display: "block" });
+      $("#divBackground").removeClass("divNormal");
+      $("#divBackground").addClass("divHeight");
     });
   } else {
     $("#navbar_toggle").addClass("dis-none");
