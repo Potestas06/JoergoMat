@@ -1,19 +1,20 @@
 /* ------------- Div for Image-Header Start ------------- */
-.ImgHeader{
-    background-image: url("../images/ImageHeader.jpg");
-    width: auto;
-    height: 25em;
-    text-align: center;
+.ImgHeader {
+  background-image: url("../images/ImageHeader.jpg");
+  width: auto;
+  height: 25em;
+  text-align: center;
 }
 
-img.ImgHeader{
+img.ImgHeader {
   width: 100%;
   height: auto;
 }
 
-html{
-    background-color: #202124;
+html {
+  background-color: #202124;
 }
+
 /* ------------- Div for Image-Header End ------------- */
 
 /* ------------- Navigation Start -------------*/
@@ -105,8 +106,22 @@ html{
 
 /* ------------- Body div class Logo Start ------------- */
 
+<<<<<<< HEAD
 body{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+=======
+.logocontainer {
+  margin-left: 50%;
+  margin-right: 50;
+  width: auto;
+  height: auto;
+}
+
+/* ------------- Body div class Logo End ------------- */
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+>>>>>>> 6f76ca49159538ae4121158bface3f6e237783cd
 }
 
 
