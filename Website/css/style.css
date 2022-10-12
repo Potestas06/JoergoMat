@@ -105,15 +105,24 @@ html{
 
 /* ------------- Body div class Logo Start ------------- */
 
-.logocontainer{
-  margin-left: 50%;
-  margin-right: 50;
-  width: auto;
-  height: auto;
-}
-
-/* ------------- Body div class Logo End ------------- */
-
 body{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
+
+    /* ------------- logocontainer start ------------- */
+    .logocontainer{
+      display: flex;
+      justify-content: center;
+    }
+    /* ------------- logocontainer end ------------- */
+
+        /* ------------- briefdesc. start ------------- */
+        .briefdesc{
+          display: flex;
+          justify-content: center;
+        }
+        /* ------------- briefdesc. end ------------- */
+
+/* ------------- Body div class Logo End ------------- */
