@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 /* ------------- Div for Image-Header Start ------------- */
 .ImgHeaderProduct {
   background-image: url("../images/HeaderImageProductpage.jpg");
@@ -113,17 +116,23 @@ body{
 
 
 
-    /* ------------- logocontainer start ------------- */
-    .logocontainer{
-      display: flex;
-      justify-content: center;
+    /* ------------- Productcolummn start ------------- */
+    .column {
+      float: left;
+      width: 42.5%;
+      padding: 5%;
+      margin-top: 5%;
+      margin-left: 5%;
       
     }
-    img.logocontainer{
-      width: auto;
-      height: auto;
+    
+  
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
     }
-    /* ------------- logocontainer end ------------- */
+    /* ------------- Productcolummn end ------------- */
 
         /* ------------- briefdesc. start ------------- */
         .briefdesc{
