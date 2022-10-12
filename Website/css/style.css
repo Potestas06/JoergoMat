@@ -106,22 +106,8 @@ html {
 
 /* ------------- Body div class Logo Start ------------- */
 
-<<<<<<< HEAD
 body{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-=======
-.logocontainer {
-  margin-left: 50%;
-  margin-right: 50;
-  width: auto;
-  height: auto;
-}
-
-/* ------------- Body div class Logo End ------------- */
-
-body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
->>>>>>> 6f76ca49159538ae4121158bface3f6e237783cd
 }
 
 
