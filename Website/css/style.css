@@ -119,6 +119,10 @@ body{
       justify-content: center;
       
     }
+    img.logocontainer{
+      width: auto;
+      height: auto;
+    }
     /* ------------- logocontainer end ------------- */
 
         /* ------------- briefdesc. start ------------- */
