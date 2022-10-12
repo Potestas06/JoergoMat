@@ -127,11 +127,13 @@ body{
           justify-content: center;
         }
         h5.briefdesc{
-          
+          color: white;
           width: 50%;
           
           overflow-wrap: break-word;
         }
+
+
         /* ------------- briefdesc. end ------------- */
  H1.gradient{
   font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
@@ -143,3 +145,10 @@ body{
   
 }
 /* ------------- Body div class Logo End ------------- */
+
+/*---------------Fotter background----------------------*/
+footer{
+  background-color: #3E3E3E;
+}
+
+/*---------------fotter bakground end--------------------*/
