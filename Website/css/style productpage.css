@@ -111,3 +111,7 @@ footer{
 }
 
 /*---------------fotter bakground end--------------------*/
+.bar{
+  background-color: #3E3E3E;
+  height: 100px;
+}
