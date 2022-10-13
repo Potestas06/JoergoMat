@@ -8,12 +8,12 @@
   top: 2em;
 }
 
-.divHeight{
+.divHeight {
   height: 250px;
   background-color: #3E3E3E;
 }
 
-.divNormal{
+.divNormal {
   height: 100px;
   background-color: #3E3E3E;
 }
@@ -25,6 +25,15 @@
 
 .logo {
   width: 70px;
+}
+
+html {
+  background-color: #202124;
+  color: white;
+}
+
+footer {
+  color: #3E3E3E;
 }
 
 @media screen and (max-width:768px) {
@@ -56,5 +65,14 @@
     display: block;
     width: 80%;
     padding: 0.5rem 1rem;
+  }
+
+  html {
+    background-color: #202124;
+    color: white;
+  }
+
+  footer {
+    color: #3E3E3E;
   }
 }
