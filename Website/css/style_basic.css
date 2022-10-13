@@ -32,6 +32,22 @@ html {
   color: white;
 }
 
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
 footer {
   color: #3E3E3E;
 }
@@ -74,5 +90,21 @@ footer {
 
   footer {
     color: #3E3E3E;
+  }
+
+  h1 {
+    color: white;
+  }
+
+  h2 {
+    color: white;
+  }
+
+  h3 {
+    color: white;
+  }
+
+  h4 {
+    color: white;
   }
 }
