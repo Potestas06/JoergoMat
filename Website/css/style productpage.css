@@ -28,7 +28,16 @@ body{
 
 
     /* ------------- Productcolummn start ------------- */
-    h5.productcolumndesc{
+    .ProductDescription{
+      display: flex;
+      justify-content: center;
+    }
+    h5.ProductDescription{
+      width: 50%;
+      overflow-wrap: break-word;
+    }
+    h5.ProductDescriptionGradient{
+      font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
       background: #B78628;
       background: linear-gradient(to right, #A57C01 0%, #B79001 50%, #FFDF01 50%, #EDCB01 50%, #DBB701 50%, #C9A401 100%);
       -webkit-background-clip: text;
