@@ -1,13 +1,5 @@
 /* ------------- Imports ------------- */
-@import url('https://fonts.googleapis.com/css?family=Fasthand');
-#text{
-    font-family: Fasthand, serif;
-    text-align: center;
-    font-size: 35px;
-    color: rgb(0, 255, 255);
-    background-color: rgb(84, 84, 84);
-    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 /* ------------- Imports ------------- */
 
 /* ------------- Div for Image-Header Start ------------- */
@@ -47,25 +39,40 @@ body{
       overflow-wrap: break-word;
     }
     h2.ProductNameGradient{
-      font-family: Fasthand 
+      font-family: "great_vibesregular" 
       background: #B78628;
       background: linear-gradient(to right, #A57C01 0%, #B79001 50%, #FFDF01 50%, #EDCB01 50%, #DBB701 50%, #C9A401 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
     /* ------------- Productname end ------------- */
+    .ProductName{
+      display: flex;
+      justify-content: center;
+    }
+    h2.ProductName{
+      width: 70%;
+      overflow-wrap: break-word;
+    }
+    h2.ProductNameGradient{
+      font-family: 'Great Vibes', cursive; 
+      background: #B78628;
+      background: linear-gradient(to right, #A57C01 0%, #B79001 50%, #FFDF01 50%, #EDCB01 50%, #DBB701 50%, #C9A401 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
 
     /* ------------- Productcolummn start ------------- */
     .ProductDescription{
       display: flex;
       justify-content: center;
     }
-    h5.ProductDescription{
+    h3.ProductDescription{
       width: 70%;
       overflow-wrap: break-word;
     }
-    h5.ProductDescriptionGradient{
-      font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
+    h3.ProductDescriptionGradient{
+      font-family: 'Great Vibes', cursive;
       background: #B78628;
       background: linear-gradient(to right, #A57C01 0%, #B79001 50%, #FFDF01 50%, #EDCB01 50%, #DBB701 50%, #C9A401 100%);
       -webkit-background-clip: text;
