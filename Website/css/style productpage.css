@@ -1,3 +1,15 @@
+/* ------------- Imports ------------- */
+@import url('https://fonts.googleapis.com/css?family=Fasthand');
+#text{
+    font-family: Fasthand, serif;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 255, 255);
+    background-color: rgb(84, 84, 84);
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+/* ------------- Imports ------------- */
+
 /* ------------- Div for Image-Header Start ------------- */
 .ImgHeaderProduct {
   background-image: url("../images/HeaderImageProductpage.jpg");
@@ -25,7 +37,23 @@ body{
   background-color: #202124;
 }
 
-
+    /* ------------- Productname start ------------- */
+    .ProductName{
+      display: flex;
+      justify-content: center;
+    }
+    h2.ProductName{
+      width: 70%;
+      overflow-wrap: break-word;
+    }
+    h2.ProductNameGradient{
+      font-family: Fasthand 
+      background: #B78628;
+      background: linear-gradient(to right, #A57C01 0%, #B79001 50%, #FFDF01 50%, #EDCB01 50%, #DBB701 50%, #C9A401 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    /* ------------- Productname end ------------- */
 
     /* ------------- Productcolummn start ------------- */
     .ProductDescription{
@@ -33,7 +61,7 @@ body{
       justify-content: center;
     }
     h5.ProductDescription{
-      width: 50%;
+      width: 70%;
       overflow-wrap: break-word;
     }
     h5.ProductDescriptionGradient{
