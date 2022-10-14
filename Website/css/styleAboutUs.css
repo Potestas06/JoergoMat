@@ -1,0 +1,141 @@
+/* ------------- Imports ------------- */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+/* ------------- Imports ------------- */
+
+/* ------------- Div for Image-Header Start ------------- */
+.ImgHeader {
+  background-image: url("../images/ImageHeader.jpg");
+  width: auto;
+  height: 25em;
+  text-align: center;
+}
+
+img.ImgHeader {
+  width: 100%;
+  height: auto;
+}
+
+html {
+  background-color: #202124;
+}
+
+/* ------------- Div for Image-Header End ------------- */
+
+
+/* ------------- Body div class Logo Start ------------- */
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #202124;
+}
+
+
+
+/* ------------- logocontainer start ------------- */
+.logocontainer {
+  display: flex;
+  justify-content: center;
+
+}
+
+img.logocontainer {
+  width: auto;
+  height: auto;
+}
+
+/* ------------- logocontainer end ------------- */
+
+/* ------------- briefdesc. start ------------- */
+.briefdesc {
+  display: flex;
+  justify-content: center;
+}
+
+h5.briefdesc {
+  color: white;
+  width: 50%;
+
+  overflow-wrap: break-word;
+}
+
+
+/* ------------- briefdesc. end ------------- */
+H1.gradient {
+  font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;
+  background: #B78628;
+  background: linear-gradient(to right, #A57C01 0%, #B79001 50%, #FFDF01 50%, #EDCB01 50%, #DBB701 50%, #C9A401 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+}
+
+/* ------------- Body div class Logo End ------------- */
+
+/*---------------Fotter background----------------------*/
+footer {
+  background-color: #3E3E3E;
+}
+
+/*---------------fotter bakground end--------------------*/
+
+/* ------------- about us start ------------- */
+.descabout {
+  display: flex;
+  justify-content: center;
+}
+
+h1.descaboutTitle {
+  width: 10%;
+  margin-left: 45%;
+  margin-right: 45%;
+  overflow-wrap: break-word;
+}
+
+h1.descaboutTitlegradient {
+  font-family: 'Great Vibes', cursive;
+  background: #B78628;
+  background: linear-gradient(to right, #A57C01 0%, #B79001 50%, #FFDF01 50%, #EDCB01 50%, #DBB701 50%, #C9A401 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2.descaboutTitlegradient {
+  font-family: 'Great Vibes', cursive;
+  background: #B78628;
+  background: linear-gradient(to right, #A57C01 0%, #B79001 50%, #FFDF01 50%, #EDCB01 50%, #DBB701 50%, #C9A401 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h5.descaboutText {
+  width: 50%;
+  overflow-wrap: break-word;
+}
+
+h5.descaboutTextgradient {
+  font-family: 'Great Vibes', cursive;
+  background: #B78628;
+  background: linear-gradient(to right, #A57C01 0%, #B79001 50%, #FFDF01 50%, #EDCB01 50%, #DBB701 50%, #C9A401 100%);
+  -webkit-backgrouh5nd-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+}
+
+/* ------------- about us end ------------- */
+
+/* ------------- about us foto start ------------- */
+.descaboutFoto {
+  display: flex;
+  justify-content: center;
+}
+
+h3.descaboutFotoGradient {
+  font-family: 'Great Vibes', cursive;
+  background: #B78628;
+  background: linear-gradient(to right, #A57C01 0%, #B79001 50%, #FFDF01 50%, #EDCB01 50%, #DBB701 50%, #C9A401 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* ------------- about us foto end ------------- */
