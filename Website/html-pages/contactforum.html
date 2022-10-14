@@ -10,6 +10,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
   <script src="../js/mainscript.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../contact-form-09/css/style.css">
+  <link rel="stylesheet" href="../css/style productpage.css">
   <title>Contact</title>
   <style>
   </style>
@@ -19,9 +23,6 @@
   <header>
     <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
       <div class="uk-navbar-left">
-        <a href="homepage.html" class="uk-navbar-item uk-logo">
-          <img src="../images/Leeano-Logo-nav.png" class="logo" alt="logo" srcset="">
-        </a>
         <a class="uk-navbar-toggle dis-none h-40" id="navbar_toggle">
           <i uk-icon="icon: menu; ratio: 2"></i>
         </a>
@@ -37,13 +38,103 @@
       </div>
     </nav>
   </header>
-  <h1 class="uk-text-center">Contact</h1>
-  <div class="article">
-    <h2>Contact Infos</h2>
-    <p>adresse: Edenstrasse 20, 8045 Zürich</p>
-    <p>Nummer: 0800 807 80 97</p>
-    <p>Mail: Info@joergomat.com</p>
+  <div class="briefdesc"><a href="../html-pages/homepage.html"><img src="../images/Leeano-Logo-nav.png"></a>
   </div>
+  <section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section">Contact Form</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-10 col-md-12">
+					<div class="wrapper">
+						<div class="row justify-content-center">
+							<div class="col-lg-8 mb-5">
+								<div class="row">
+									<div class="col-md-4">
+										<div class="dbox w-100 text-center">
+					        		<div class="icon d-flex align-items-center justify-content-center">
+					        			<span class="fa fa-map-marker"></span>
+					        		</div>
+					        		<div class="text">
+						            <p><span>Address:</span>ZLI, Edenstrasse 20, 8045 Zürich</p>
+						          </div>
+					          </div>
+									</div>
+									<div class="col-md-4">
+										<div class="dbox w-100 text-center">
+					        		<div class="icon d-flex align-items-center justify-content-center">
+					        			<span class="fa fa-phone"></span>
+					        		</div>
+					        		<div class="text">
+						            <p><span>Phone:</span> <a href="tel://1234567920">+41 78 695 72 97</a></p>
+						          </div>
+					          </div>
+									</div>
+									<div class="col-md-4">
+										<div class="dbox w-100 text-center">
+					        		<div class="icon d-flex align-items-center justify-content-center">
+					        			<span class="fa fa-paper-plane"></span>
+					        		</div>
+					        		<div class="text">
+						            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@leeano.com</a></p>
+						          </div>
+					          </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-8">
+								<div class="contact-wrap">
+									<h3 class="mb-4 text-center">Get in touch with us</h3>
+									<div id="form-message-warning" class="mb-4 w-100 text-center"></div> 
+				      		<div id="form-message-success" class="mb-4 w-100 text-center">
+				            Your message was sent, thank you!
+				      		</div>
+									<form method="POST" id="contactForm" name="contactForm" class="contactForm">
+										<div class="row">
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+												</div>
+											</div>
+											<div class="col-md-12"> 
+												<div class="form-group">
+													<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<textarea name="message" class="form-control" id="message" cols="30" rows="8" placeholder="Message"></textarea>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="submit" value="Send Message" class="btn btn-primary">
+													<div class="submitting"></div>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/main.js"></script>
   <br>
   <br>
   <br>
