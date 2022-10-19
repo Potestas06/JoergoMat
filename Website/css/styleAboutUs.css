@@ -113,6 +113,12 @@ h5.descaboutText {
   overflow-wrap: break-word;
 }
 
+h5.descaboutText2 {
+  width: 70%;
+  overflow-wrap: break-word;
+}
+
+
 h5.descaboutTextgradient {
   font-family: 'Great Vibes', cursive;
   background: #B78628;
